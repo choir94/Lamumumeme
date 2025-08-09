@@ -8,17 +8,26 @@
 </head>
 <body>
   <h1>Lamumu Meme Generator 🐮</h1>
-  <p>Create your own Lamumu meme with crayon effect ✏️, drag-and-drop, freehand drawing, and stickers!</p>
+  <p>Create your own Lamumu meme with crayon effect ✏️, drag-and-drop, and freehand drawing!</p>
 
-  <!-- Upload Gambar -->
+  <!-- Upload -->
   <div class="upload-box">
     <input type="file" id="upload" accept="image/*">
+  </div>
+
+  <!-- Resize controls -->
+  <div class="resize-controls">
+    <label>Width:</label>
+    <input type="number" id="imgWidth" value="800" min="100">
+    <label>Height:</label>
+    <input type="number" id="imgHeight" value="600" min="100">
+    <button id="applyResize">Resize</button>
   </div>
 
   <!-- Canvas -->
   <canvas id="memeCanvas"></canvas>
 
-  <!-- Kontrol -->
+  <!-- Controls -->
   <div class="controls">
     <input type="text" id="topText" placeholder="Top text" value="Moo to the Moon">
     <input type="text" id="bottomText" placeholder="Bottom text" value="Lamumu Forever">
@@ -35,16 +44,6 @@
     <button id="undoBtn">Undo</button>
     <button id="redoBtn">Redo</button>
     <button id="clearDrawings">Clear Drawings</button>
-    <br>
-
-    <!-- Gallery Stiker -->
-    <h3>Lamumu Stickers 🐮</h3>
-    <div class="sticker-gallery" id="stickerGallery">
-      <img src="https://raw.githubusercontent.com/choir94/Lamumumeme/main/Logo.png" alt="Sticker1" class="sticker-option">
-      <img src="https://i.ibb.co/HPjppK1/sapi1.png" alt="Sticker2" class="sticker-option">
-      <img src="https://i.ibb.co/VLrRjn7/sapi2.png" alt="Sticker3" class="sticker-option">
-    </div>
-
     <br>
     <button id="downloadBtn">Download Meme</button>
   </div>
