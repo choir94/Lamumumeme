@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #fdf6f6;
+  color: #333;
+  padding: 20px;
+  margin: 0;
+}
+
+h1 {
+  color: #ff4c85; /* pink lamumu */
+}
+
+.upload-box {
+  margin: 15px 0;
+}
+
+canvas {
+  margin-top: 10px;
+  border: 2px solid #ccc;
+  max-width: 100%;
+  background-color: white;
+  cursor: move;
+}
+
+.controls {
+  margin-top: 15px;
+}
+
+input[type="text"], input[type="color"] {
+  margin-top: 10px;
+  padding: 5px;
+  width: 220px;
+  font-size: 14px;
+}
+
+button {
+  background-color: #ff4c85;
+  color: white;
+  padding: 8px 16px;
+  margin-top: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #e53e70;
+}
+
+footer {
+  margin-top: 30px;
+  font-size: 14px;
+  color: gray;
+}
