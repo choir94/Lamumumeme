@@ -19,7 +19,7 @@ const downloadBtn = document.getElementById('downloadBtn');
 
 const logo = new Image();
 logo.crossOrigin = "anonymous";
-logo.src = "https://raw.githubusercontent.com/choir94/Lamumumeme/main/Logo.png";
+logo.src = "https://raw.githubusercontent.com/choir94/Lamumumeme/main/1000182508-removebg-preview.png";
 
 let uploadedImage = null;
 let topTextPos = { x: 0, y: 50 };
