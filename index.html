@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lamumu Meme Generator 🐮</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Lamumu Meme Generator 🐮</h1>
+  <p>Buat meme Lamumu-mu sendiri dengan gaya crayon ✏️ dan drag-and-drop!</p>
+
+  <div class="upload-box">
+    <input type="file" id="upload" accept="image/*">
+  </div>
+
+  <canvas id="memeCanvas"></canvas>
+
+  <div class="controls">
+    <input type="text" id="topText" placeholder="Teks atas" value="Moo to the Moon">
+    <input type="text" id="bottomText" placeholder="Teks bawah" value="Lamumu Forever">
+    <br>
+    <label for="textColor">Warna teks:</label>
+    <input type="color" id="textColor" value="#ffffff">
+    <br>
+    <button id="downloadBtn">Download Meme</button>
+  </div>
+
+  <footer>
+    Dibuat untuk kontribusi komunitas <b>@lamumudotxyz</b> ❤️
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
