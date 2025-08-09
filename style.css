@@ -11,7 +11,7 @@ h1 {
   color: #ff4c85;
 }
 
-.upload-box {
+.upload-box, .resize-controls {
   margin: 15px 0;
 }
 
@@ -27,9 +27,7 @@ canvas {
   margin-top: 15px;
 }
 
-input[type="text"],
-input[type="color"],
-input[type="number"] {
+input[type="text"], input[type="color"], input[type="number"] {
   margin: 5px;
   padding: 5px;
   font-size: 14px;
@@ -54,27 +52,4 @@ footer {
   margin-top: 30px;
   font-size: 14px;
   color: gray;
-}
-
-.sticker-gallery {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  overflow-x: auto;
-  padding: 10px;
-}
-
-.sticker-gallery img {
-  width: 60px;
-  height: 60px;
-  object-fit: contain;
-  cursor: pointer;
-  border: 2px solid transparent;
-  border-radius: 8px;
-  transition: transform 0.2s, border-color 0.2s;
-}
-
-.sticker-gallery img:hover {
-  transform: scale(1.1);
-  border-color: #ff4c85;
 }
